@@ -1,10 +1,10 @@
 const protectorClient = require("./Client");
-const { TOKEN, VOICE_CHANNEL, BOT_ROLES, SERVER_ID } = require("./configurations.json").DEFAULTS;
+const { TOKEN, VOICE_CHANNEL, BOT_ROLES, SERVER_ID, STATUS } = require("./configurations.json").DEFAULTS;
 const { ALWAYS_CHECK, PERMISSIONS_CHECK_ON_ROLEUPDATE } = require("./configurations.json").SETTINGS; 
 const client = new protectorClient(TOKEN);
 
 client.on("ready", async () => {
-    client.user.setPresence({ activity: { name: "Aetherxrd", type: "WATCHING" }, status: "dnd" });
+    client.user.setPresence({ activity: { name: STATUS, type: "WATCHING" }, status: "dnd" });
     if (client.channels.cache.has(VOICE_CHANNEL)) client.channels.cache.get(VOICE_CHANNEL).join().catch();
     setInterval(async () => {
         if (ALWAYS_CHECK === false) return;
