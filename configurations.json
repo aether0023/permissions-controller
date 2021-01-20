@@ -4,7 +4,8 @@
         "SERVER_ID": "",
         "TOKEN": "",
         "AUTHOR": "",
-        "VOICE_CHANNEL": ""
+        "VOICE_CHANNEL": "",
+        "STATUS": ""
     },
     "SETTINGS": {
         "ALWAYS_CHECK": true,
