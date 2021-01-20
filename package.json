@@ -1,0 +1,15 @@
+{
+    "name": "protector-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "node index.js"
+    },
+    "author": "AETHER",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^12.5.1"
+    }
+  }
+  

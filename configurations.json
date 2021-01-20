@@ -1,0 +1,13 @@
+{
+    "DEFAULTS": {
+        "BOT_ROLES": [],
+        "SERVER_ID": "",
+        "TOKEN": "",
+        "AUTHOR": "",
+        "VOICE_CHANNEL": ""
+    },
+    "SETTINGS": {
+        "ALWAYS_CHECK": true,
+        "PERMISSIONS_CHECK_ON_ROLEUPDATE": true
+    }
+}
